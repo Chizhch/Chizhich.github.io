@@ -31,7 +31,7 @@
         var script = document.createElement('script');
         var dl = dataLayerName !== 'acDataLayer' ? '&l=' + dataLayerName : '';
         script.async = true;
-        script.src = 'https://pxl.ilya-chizhikov.qa.altcraft.com:80/actm/js/actm.js?id=' + containerID + dl;
+        script.src = 'https://example.com/' + containerID + dl;
         script.type = 'module';
         if (firstScript && firstScript.parentNode) {
             firstScript.parentNode.insertBefore(script, firstScript);
